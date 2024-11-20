@@ -16,10 +16,10 @@ const Home = () => {
           <Navbar.Collapse id="navbarNav" className="justify-content-center">
             <Nav className="mx-auto">
               <Nav.Link id='nav-link' href="/">Home</Nav.Link>
-              <Nav.Link id='nav-link' href="/about">About</Nav.Link>
-              <Nav.Link id='nav-link' href="/education">Education</Nav.Link>
-              <Nav.Link id='nav-link' href="/hobbies">Hobbies</Nav.Link>
-              <Nav.Link id='nav-link' href="/contact">Contact</Nav.Link>
+              <Nav.Link id='nav-link' href="/About">About</Nav.Link>
+              <Nav.Link id='nav-link' href="/Education">Education</Nav.Link>
+              <Nav.Link id='nav-link' href="/Hobbies">Hobbies</Nav.Link>
+              <Nav.Link id='nav-link' href="/Contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
