@@ -15,11 +15,11 @@ const Home = () => {
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav" className="justify-content-center">
             <Nav className="mx-auto">
-              <Nav.Link as={Link} href="/">Home</Nav.Link>
-              <Nav.Link as={Link} href="/About">About</Nav.Link>
-              <Nav.Link as={Link} href="/Education">Education</Nav.Link>
-              <Nav.Link as={Link} href="/Hobbies">Hobbies</Nav.Link>
-              <Nav.Link as={Link} href="/Contact">Contact</Nav.Link>
+              <Nav.Link id='nav-link' href="/">Home</Nav.Link>
+              <Nav.Link id='nav-link' href="/About">About</Nav.Link>
+              <Nav.Link id='nav-link' href="/Education">Education</Nav.Link>
+              <Nav.Link id='nav-link' href="/Hobbies">Hobbies</Nav.Link>
+              <Nav.Link id='nav-link' href="/Contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
