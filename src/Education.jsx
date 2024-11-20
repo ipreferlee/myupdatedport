@@ -61,7 +61,7 @@ const Education = () => {
           <Card.Body>
             <Card.Title className='text-center'>College</Card.Title>
             <Card.Text className='text-center'>
-              Naga College Foundation Inc.
+              Naga College Foundation Inc. 2024-2025
             </Card.Text>
             <Button variant="success">Visit Page</Button>
           </Card.Body>

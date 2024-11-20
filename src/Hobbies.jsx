@@ -23,12 +23,15 @@ const Hobbies = () => {
         </Container>
       </Navbar>
       
+      <div className='myhobbies'>
+        <h3><u>My Hobbies</u></h3>
+        <p>Basketball is more than just a game to me. It’s a passion, a way of life, and a source of joy.<br/> Ever since I was a young child, I have been drawn to the sport, and as I have grown, so has my love for it.<br/> There are countless reasons why I love playing basketball, but there are a few that stand out as the most significant.</p>
+        <p>Playing computer games is not just a hobby for me it is a form of entertainment that brings me joy, excitement, and countless memorable experiences.</p>
+      </div>
       <div className='hobbies-img'>
         <img src={hobbiesImg} width={700} alt="" />
       </div>
      
-      
-      
     </div>
   )
 }

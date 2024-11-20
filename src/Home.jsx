@@ -29,7 +29,7 @@ const Home = () => {
         <div className='introduction'>
             <h3>Hi I'm <span className='cs-txt'>Lee Richard</span></h3>
             <span className='cs-name'>BSCS STUDENT</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Accusantium cumque nisi libero magnam minima fugit sins ad possimus officiis qui?</p>
+            <p>Studying at Naga College Foundation. <br /> Taking Bachelor of Science in Computer Science.</p>
             <Link to="/About">
                 <button class="button type1"><span className="btn-txt">Get Started</span></button>
             </Link>

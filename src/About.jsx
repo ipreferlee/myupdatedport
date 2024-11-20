@@ -33,7 +33,10 @@ const About = () => {
 <div className='about-section'>
         <div className='left-sec'>
           <h2>About me</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Placeat quis error doloremque, vitae in velit commodi, ducimus odio, <br /> eum deleniti accusamus soluta perferendis consequuntur nihil! <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, corporis?</p>
+          <p>My name is Lee Richard Ochoada, 23 years old <br/>Living at Villa Obiedo Cararayan Naga City, <br /> 
+          Studying at Naga Collge Foundation, <br /> 
+          Taking Bachelor of Science in Computer Science <br />
+          </p>
           
         </div>
 
