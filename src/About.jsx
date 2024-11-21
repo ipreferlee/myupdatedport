@@ -9,8 +9,6 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const About = () => {
   return (
-   
-  
 <div className="navigation">
       <Navbar id="navBar" expand="lg" data-bs-theme="dark">
         <Container>
