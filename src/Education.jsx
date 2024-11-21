@@ -8,7 +8,7 @@ import myImage from './assets/Person-Assets.png';
 import ncfLogo from './assets/NCF-LOGO.png';
 import angelesLogo from './assets/angeles.jpg';
 import systemPlus from './assets/systemplus.jpg';
-
+import { Link } from 'react-router-dom';
 const Education = () => {
   return (
     <div className="navigation">
