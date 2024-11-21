@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import hobbiesImg from './assets/Untitled design (17).png'
-
+import { Link } from 'react-router-dom';
 const Hobbies = () => {
   return (
     <div className='hobbies-sec'>
