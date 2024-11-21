@@ -6,6 +6,8 @@ import About from './About';
 import Education from './Education';
 import Hobbies from './Hobbies';
 import Contact from './Contact';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 const App = () => {
   return (
