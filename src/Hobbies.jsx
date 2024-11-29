@@ -1,31 +1,11 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import hobbiesImg from './assets/Untitled design (17).png'
-import { Link } from 'react-router-dom';
+import React from "react";
+
 const Hobbies = () => {
-  return (
-    <div className='hobbies-sec'>
-        <Navbar id="navBar" expand="lg" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#">MyPortfolio</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarNav" />
-          <Navbar.Collapse id="navbarNav" className="justify-content-center">
-            <Nav className="mx-auto">
-             <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/education">Education</Nav.Link>
-              <Nav.Link as={Link} to="/hobbies">Hobbies</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-      {
-      title: "Riding",
-      description: "I love exploring new worlds and ideas through riding",
-      icon: "🚗",
+  const hobbies = [
+    {
+      title: "Reading",
+      description: "I love exploring new worlds and ideas through books and articles.",
+      icon: "📚",
     },
     {
       title: "Gaming",
@@ -128,7 +108,10 @@ const Hobbies = () => {
               {hobby.description}
             </p>
           </div>
-  )
-}
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default Hobbies
+export default Hobbies;
