@@ -1,10 +1,9 @@
 import React from 'react';
-import myImage from './assets/Person-Assets.png';
+import myImage from './assets/Person-Assets.png'; // You might want to use this image somewhere
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 
 const About = () => {
   return (
@@ -27,29 +26,6 @@ const About = () => {
           </Container>
         </Navbar>
       </div>
-=======
-
-
-
-const About = () => {
-  return (
-<div className="navigation">
-    <Navbar id="navBar" expand="lg" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#">MyPortfolio</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarNav" />
-          <Navbar.Collapse id="navbarNav" className="justify-content-center">
-            <Nav className="mx-auto">
-             <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/education">Education</Nav.Link>
-              <Nav.Link as={Link} to="/hobbies">Hobbies</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
->>>>>>> 3275a2bd7ad4ebaee15957ca8384f7a90b74cb6f
 
       {/* About Section */}
       <div

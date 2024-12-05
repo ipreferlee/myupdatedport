@@ -2,11 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-<<<<<<< HEAD
 import hobbiesImg from './assets/hoopcomp.png'
-=======
-import hobbiesImg from './assets/Untitled design (17).png'
->>>>>>> 3275a2bd7ad4ebaee15957ca8384f7a90b74cb6f
 import { Link } from 'react-router-dom';
 
 const Hobbies = () => {

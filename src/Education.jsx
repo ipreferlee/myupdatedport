@@ -9,10 +9,7 @@ import ncfLogo from './assets/NCF-LOGO.png';
 import angelesLogo from './assets/angeles.jpg';
 import systemPlus from './assets/systemplus.jpg';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 
-=======
->>>>>>> 3275a2bd7ad4ebaee15957ca8384f7a90b74cb6f
 const Education = () => {
   return (
     <div className="navigation">
@@ -22,11 +19,9 @@ const Education = () => {
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav" className="justify-content-center">
             <Nav className="mx-auto">
-<<<<<<< HEAD
+
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-=======
              <Nav.Link as={Link} to="/">Home</Nav.Link>
->>>>>>> 3275a2bd7ad4ebaee15957ca8384f7a90b74cb6f
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/education">Education</Nav.Link>
               <Nav.Link as={Link} to="/hobbies">Hobbies</Nav.Link>
@@ -39,9 +34,9 @@ const Education = () => {
       <h3 className='myeduc'><u>My Education</u></h3>
       </div>
 
-            <div class="container d-flex justify-content-center" id='cards' className='education-container'>
-        <div class="row align-items-start">
-          <div class="col">
+            <div id='cards' className='education-container'>
+        <div className="row align-items-start">
+          <div className="col">
             <Card style={{ width: '18rem' }} id='card-body' >
             <Card.Img id='educ-img' variant="top" src={angelesLogo} />
             <Card.Body>
@@ -54,7 +49,7 @@ const Education = () => {
           </Card>
           </div>
           
-          <div class="col">
+          <div className="col">
           <Card style={{ width: '18rem' }}>
           <Card.Img id='educ-img' variant="top" src={systemPlus} />
           <Card.Body>
@@ -66,7 +61,7 @@ const Education = () => {
           </Card.Body>
         </Card>
           </div>
-          <div class="col">
+          <div className="col">
           <Card style={{ width: '18rem' }}>
           <Card.Img id='educ-img' variant="top" src={ncfLogo} />
           <Card.Body>
